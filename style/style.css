@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.studying-process{
+    background-color: #F6F6F6;
+    padding: 102px 0;
+    
+    
+    
+    
+}
+.container {
+    max-width: 76.875rem /* 1230/16 */;
+    padding: 0 16px;
+    margin: 0 auto;
+
+} 
+
+.container-studying{
+    display: flex;
+    justify-content: center;
+    gap: 210px;
+    
+}
+.image-container {
+    margin-top: auto;
+}
+.image-container img {
+    display: block;
+}
+.subtitle{
+    font-weight: 700;
+    font-size:16px ;
+    line-height: 24px;
+    color: #1E212C;
+    margin-bottom:8px ;
+    
+}
+.title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 60px;
+
+}
+.steps{
+    margin-top: 60px;
+    list-style: none;
+    padding-left: 40px;
+    border-left: 1px solid #9A9CA5;
+}
+
+.step{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.step:last-child {
+    margin-bottom: 0;
+}
+.step::before{
+    content: "";
+    position: absolute;
+    left: -48px;
+    top: 0;
+    border: 4px solid #fff;
+    width: 8px;
+    height: 8px;
+    background-color: #FF3F3A;
+    border-radius: 50%;
+
+
+
+}
+
+.step_title{
+    margin-bottom: 2px;
+    color: #787A80;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.step_topic{
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E212C;
+
+}
+.text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #787A80;
+}
+.sub-container{
+    padding-top:95px ;
+}
+
+.blog_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.card_link{
+    text-decoration: none;
+    color: rgba(30, 33, 44, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+.blog-btn {
+    position: relative;
+    left: 450px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 159px;
+    height: 52px;
+    background: linear-gradient(rgba(255, 63, 58, 1), rgba(247, 94, 5, 1));
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff; 
+    margin: 0 auto; 
+    margin-top: 35px;
+
+    
+}
+
+
+.card_container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin-top: 60px;
+   padding-left: 60px;
+
+
+}
+
+.card{
+    width: 400px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem ;
+    position: relative;
+}
+.main-img{
+    width: 100%;
+}
+
+.category-img{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+}
+
+
+.meta_content {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+  }
+
+  .meta-category {
+    display: inline-flex; 
+    align-items: center; 
+    gap: 10px; 
+  }
+
+.vertical-line {
+    writing-mode: vertical-rl;
+    transform: rotate(112deg);
+    color: rgba(120, 122, 128, 1);
+}
+
+
+
+time, .meta_duration {
+    display: flex;
+    align-items: center; 
+    gap: 4px; 
+  }
+  
+  .meta_content i img {
+    width: 16px; 
+    height: 16px;
+  }
